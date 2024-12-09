@@ -2,7 +2,6 @@ import React, { useContext, useEffect, useState } from 'react'
 import MealsList from './MealsList';
 import { AppContext } from './Context';
 import Loading from '../Pages/Loading';
-
 import Filters from './Filters';
 
 

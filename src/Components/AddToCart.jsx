@@ -13,7 +13,7 @@ const AddToCart = ({ mealItems }) => {
       <Link to='/cart'>
         <button className='btn-cart'
           onClick={() => addToCart(_id, title, image, category, description, price, amount)}>
-          Add To Cart
+          Thêm Giỏ Hàng
         </button>
       </Link>
 

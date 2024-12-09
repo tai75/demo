@@ -28,7 +28,7 @@ const CartItems = ({ _id, title, price, image, amount }) => {
             </CardContent>
             <CardContent>
               <Typography className='Qtys' variant='h6'>
-                Qty:{amount}
+                Số lượng:{amount}
               </Typography>
             </CardContent>
             <CardActions>

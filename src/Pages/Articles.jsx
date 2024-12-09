@@ -4,7 +4,7 @@ import articles from '../assets/articles.svg'
 const Articles = () => {
   return (
     <section className='article'>
-      <h3>Stay tune for latest articles...😊</h3>
+      <h3>Hãy theo dõi để cập nhật những bài viết mới nhất</h3>
       <img src={articles} alt="articles" />
     </section>
   )

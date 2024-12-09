@@ -99,10 +99,10 @@ const Home = () => {
                         <img src={wallppr} alt="img" />
                         <img className='res-img' src={wallppr2} alt="img2" />
                         <div className='title'>
-                            <span className='t1'>Eat Healthy & </span>
-                            <span className='t2'>be Nutrition Wealthy,</span>
+                            <span className='t1'>Ăn lành mạnh & </span>
+                            <span className='t2'>Giàu dinh dưỡng,</span>
                             <br />
-                            <span className='t3'>is what we offer</span>
+                            <span className='t3'>là những gì mà chúng tôi mong muốn</span>
                         </div>
                     </div>
 
@@ -110,8 +110,8 @@ const Home = () => {
                     <div className='container-title'>
                         <img src={img3} alt="intro" />
                         <div className='content'>
-                            <h1>We are HealthyMe!</h1>
-                            <p>Our mission is to make a nourishing plant-based lifestyle accessible to everyone. <br /> We serve healthy & nutrition rich meals directly at your doorsteps. We also make you feel excited and supported in introducing more plant-based foods into your meals, snacks, desserts, and everything in-between! </p>
+                            <h1>Chúng Tôi là Ăn Lành Mạnh!</h1>
+                            <p>Nhiệm vụ của chúng tôi là làm ra những thức ăn thanh đạm và giàu dinh dưỡng đén cho mọi người <br /> Chúng tôi phục những bữa ăn lành mạnh và giàu dinh dưỡng ngay tại nhà bạn. Chúng tôi cũng giúp bạn cảm thấy thoải mái và được hỗ trợ trong việc đưa nhiều thực phẩm từ thực vật vào bữa ăn, đồ ăn nhẹ, món tráng miệng và mọi thứ khác!</p>
                             <Link to='/about'>
                                 <button onClick={() => { console.log('you clicked learn-more') }}>Learn more <AiOutlineHeart /> </button>
                             </Link>
@@ -121,8 +121,8 @@ const Home = () => {
 
                     <div className='container1'>
                         <div className='content1'>
-                            <h1>To eat is a necessity, but to eat intelligently is an art.</h1>
-                            <p>Eat the best, leave the rest.</p>
+                            <h1>Ăn uống là rất cần thiết.Nhưng ăn uống một cách khoa học chính là một nghệ thuật.</h1>
+                            <p>Ăn những gì tốt nhất,bỏ những gì hại nhất.</p>
                         </div>
                         <img className='img1 ' src={img1} alt="img1" />
                         <img className='imgOne' src={img1} alt="img1" />
@@ -132,8 +132,8 @@ const Home = () => {
                         <img className='img2' src={img2} alt="img2" />
                         <img className='imgTwo' src={img2} alt="img2" />
                         <div className='content2'>
-                            <h1>Our Goal Is to Help Everyone Live a Healthier Lifestyle.</h1>
-                            <p>No artificial colors or flavors</p>
+                            <h1>Mục đích của chúng tôi là giúp cho mọi người có một đời sống sức khỏe và tốt đẹp hơn.</h1>
+                            <p>Không sử dụng màu hóa chất và các gia vị nhân tạo</p>
                         </div>
                     </div>
 

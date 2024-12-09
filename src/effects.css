@@ -356,7 +356,7 @@ nav a:hover {
   height: 45px;
   width: 120px;
   font-size: 25px;
-  font-family: "Amatic SC", cursive;
+  font-family: Sans-Serif;
   border-radius: 15px;
   background-color: #154726;
   color: #FAF3E6;
@@ -375,7 +375,7 @@ nav a:hover {
   position: absolute;
   top: 200px;
   left: 600px;
-  font-family: "Caveat", cursive;
+  font-family: Sans-Serif;
   font-weight: bold;
   font-size: 40px;
   color: #154726;
@@ -384,7 +384,7 @@ nav a:hover {
   position: relative;
   top: 270px;
   left: 710px;
-  font-family: "Amatic SC", cursive;
+  font-family: Sans-Serif;
   color: #154726;
   background-color: #FFD550;
   border-color: #FFD550;
@@ -419,7 +419,7 @@ nav a:hover {
 .cart-items .cart-top-sec button {
   background-color: #154726;
   color: #FAF3E6;
-  font-family: "Caveat", cursive;
+  font-family: Sans-Serif;
   text-transform: none;
   font-size: 20px;
   border-radius: 20px;
@@ -476,7 +476,7 @@ nav a:hover {
 .cart-footer .col-6 .btn-cart {
   background-color: #154726;
   color: #FAF3E6;
-  font-family: "Caveat", cursive;
+  font-family: Sans-Serif;
   text-transform: none;
   font-size: 20px;
   border-radius: 15px;
@@ -489,7 +489,7 @@ nav a:hover {
   transition-duration: 0.5s;
   background-color: #B04C35;
   color: #FAF3E6;
-  font-family: "Caveat", cursive;
+  font-family: Sans-Serif;
   text-transform: none;
   font-size: 20px;
   border-radius: 15px;
@@ -515,7 +515,7 @@ nav a:hover {
 }
 .cart-bill h3,
 .cart-bill h4 {
-  font-family: "Caveat", cursive;
+  font-family: Sans-Serif;
   color: #154726;
   font-size: 40px;
   font-weight: bold;
@@ -535,7 +535,7 @@ nav a:hover {
   border: none;
   background-color: #FFD550;
   color: #154726;
-  font-family: "Caveat", cursive;
+  font-family: Sans-Serif;
   font-size: 25px;
   font-weight: bold;
   transition-duration: 0.5s;
@@ -574,13 +574,13 @@ nav a:hover {
   position: absolute;
   top: 160px;
   left: 450px;
-  font-family: "Amatic SC", cursive;
+  font-family: Sans-Serif;
   color: #FAF3E6;
   font-size: 65px;
 }
 .about p {
   padding: 25px;
-  font-family: "Caveat", cursive;
+  font-family: Sans-Serif;
   font-size: 25px;
   color: #154726;
   text-transform: none;
@@ -732,7 +732,7 @@ nav a:hover {
   height: 100vh;
 }
 .faq .faq-title {
-  font-family: "Caveat", cursive;
+  font-family: Sans-Serif;
   color: #154726;
   font-size: 50px;
   margin-left: 680px;
@@ -740,7 +740,7 @@ nav a:hover {
 .faq .accordion-header {
   background-color: #EAEDE8;
   color: #154726;
-  font-family: "Caveat", cursive;
+  font-family: Sans-Serif;
 }
 .faq .accordion-header .btn {
   background-color: #BCCBB8;
@@ -749,7 +749,7 @@ nav a:hover {
 .faq .accordion-body {
   background-color: #EAEDE8;
   color: #154726;
-  font-family: "Caveat", cursive;
+  font-family: Sans-Serif;
   font-size: 25px;
   text-transform: none;
 }

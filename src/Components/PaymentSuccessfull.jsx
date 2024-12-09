@@ -26,8 +26,8 @@ const PaymentSuccess = () => {
             <div>
                 <img src={success} alt="success" />
                 <div className='pytm-details'>
-                    <h1>Your Order has been placed successfully</h1>
-                    <span>Order Reference ID: {ref}</span>
+                    <h1>Đơn hàng của bạn đã được đặt thành công.</h1>
+                    <span>ID đơn hàng: {ref}</span>
                 </div>
             </div>
         </section>

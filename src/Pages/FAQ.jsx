@@ -8,7 +8,7 @@ const FAQ = () => {
                 <div className="accordion-item mb-3">
                     <div className="accordion-header d-flex justify-content-between p-3">
                         <div>
-                            <h3>What are tips for anyone wanting to transition to eating more plant-based?</h3>
+                            <h3>Những mẹo nào cho những ai muốn chuyển sang ăn nhiều thực phẩm từ thực vật hơn?</h3>
                         </div>
                         <div>
                             <button className="btn btn-dark w-100" data-bs-toggle="collapse" data-bs-target="#ac1">
@@ -17,11 +17,7 @@ const FAQ = () => {
                         </div>
                     </div>
                     <div className="accordion-body accordion-collapse collapse p-3" id="ac1" data-bs-parent="#ac">
-                        <p>Be kind to yourself, take it slow, and enjoy the process. Learn as much as you can,
-                            and tackle one new thing at a time so as to not overwhelm yourself. Start small. Consider starting
-                            to replace your cow's milk with oat, soy, or almond milk. Then consider swapping out dairy yogurt for
-                            plant-based yogurts. Luckily, there are many plant-based meat and dairy alternatives on the market.
-                            It can also help if you find plant-based versions of recipes you already enjoy.
+                        <p>Hãy đối xử tốt với bản thân, từ từ và tận hưởng quá trình. Học hỏi càng nhiều càng tốt, và hãy giải quyết từng điều mới một để không cảm thấy quá tải. Bắt đầu từ những điều nhỏ. Hãy xem xét việc thay thế sữa bò bằng sữa yến mạch, sữa đậu nành hoặc sữa hạnh nhân. Sau đó, hãy cân nhắc việc thay thế sữa chua từ sữa động vật bằng sữa chua từ thực vật. May mắn thay, hiện có nhiều sản phẩm thay thế thịt và sữa từ thực vật trên thị trường. Bạn cũng có thể tìm các phiên bản từ thực vật của những công thức mà bạn đã thích.
                         </p>
                     </div>
                 </div>
@@ -29,7 +25,7 @@ const FAQ = () => {
                 <div className="accordion-item mb-3">
                     <div className="accordion-header d-flex justify-content-between p-3">
                         <div>
-                            <h3>Which supplements are recommended for vegans?</h3>
+                            <h3>Các loại thực phẩm bổ sung nào được khuyến nghị cho người ăn chay?</h3>
                         </div>
                         <div>
                             <button className="btn btn-dark w-100" data-bs-toggle="collapse" data-bs-target="#ac2">
@@ -38,16 +34,14 @@ const FAQ = () => {
                         </div>
                     </div>
                     <div className="accordion-body accordion-collapse collapse p-3" id="ac2" data-bs-parent="#ac">
-                        <p>We recommend taking vitamin B12, vitamin D, and possibly an algae omega-3 supplement.
-                            The dose and the amount you'd need depends on a few factors like age, gender,
-                            geographical location, season, diet, and lifestyle.</p>
+                        <p>Chúng tôi khuyên bạn nên bổ sung vitamin B12, vitamin D và có thể là một loại thực phẩm bổ sung omega-3 từ tảo. Liều lượng và số lượng bạn cần phụ thuộc vào một số yếu tố như tuổi tác, giới tính, vị trí địa lý, mùa, chế độ ăn uống và lối sống..</p>
                     </div>
                 </div>
 
                 <div className="accordion-item mb-3">
                     <div className="accordion-header d-flex justify-content-between p-3">
                         <div>
-                            <h3>Is HealthyMe meals only meant for those who are plant-based or vegan?</h3>
+                            <h3>Ăn Lành Mạnh chỉ hướng đến những khách hàng ăn chay?</h3>
                         </div>
                         <div>
                             <button className="btn btn-dark w-100" data-bs-toggle="collapse" data-bs-target="#ac3">
@@ -56,17 +50,13 @@ const FAQ = () => {
                         </div>
                     </div>
                     <div className="accordion-body accordion-collapse collapse p-3" id="ac3" data-bs-parent="#ac">
-                        <p>Certainly not! HealthyMe meals can be enjoyed by all, regardless of dietary choices.
-                            At HealthyMe, we do believe in the many health, environmental, and ethical benefits of following a plant-based lifestyle,
-                            but we would never pressure it on anyone. Ultimately, this is your decision.
-                            We hope that if you do choose to include more plants in your life,
-                            our meals helps you feel more confident in doing so ☺️</p>
+                        <p>Chắc chắn là không! Các bữa ăn của Ăn Lành Mạnh có thể được mọi người thưởng thức, bất kể lựa chọn chế độ ăn uống. Tại Ăn Lành Mạnh, chúng tôi tin vào nhiều lợi ích về sức khỏe, môi trường và đạo đức của việc theo lối sống dựa trên thực vật, nhưng chúng tôi sẽ không bao giờ ép buộc ai cả. Cuối cùng, đây là quyết định của bạn. Chúng tôi hy vọng rằng nếu bạn chọn thêm nhiều thực phẩm từ thực vật vào cuộc sống của mình, các bữa ăn của chúng tôi sẽ giúp bạn cảm thấy tự tin hơn khi làm điều đó</p>
                     </div>
                 </div>
                 <div className="accordion-item mb-3">
                     <div className="accordion-header d-flex justify-content-between p-3">
                         <div>
-                            <h3>Is HealthyMe meals affordable?</h3>
+                            <h3>Các món ăn của Ăn Lành Mạnh có giá cả phải chăng không?</h3>
                         </div>
                         <div>
                             <button className="btn btn-dark w-100" data-bs-toggle="collapse" data-bs-target="#ac4">
@@ -75,11 +65,7 @@ const FAQ = () => {
                         </div>
                     </div>
                     <div className="accordion-body accordion-collapse collapse p-3" id="ac4" data-bs-parent="#ac">
-                        <p>Absolutely! On average, people spend approximately &#8377;45-&#8377;150 each day on food that does
-                             guarantee proper portions, convenience, balanced vitamins and minerals, nutrition, or overall quality.
-                              Healthy Meals, provides you with all of those benefits at a comparable daily rate.
-                               Our pricing stems from quality. Highly experienced chefs and top quality ingredients are what
-                                we insist upon to ensure you are getting exactly what you are paying for.
+                        <p>Chắc chắn rồi! Trung bình, mọi người chi khoảng 50-100 nghìn mỗi ngày cho thực phẩm mà không đảm bảo khẩu phần hợp lý, sự tiện lợi, vitamin và khoáng chất cân bằng, dinh dưỡng, hoặc chất lượng tổng thể. Ăn Lành Mạnh cung cấp cho bạn tất cả những lợi ích đó với mức giá hàng ngày tương đương. Giá cả của chúng tôi xuất phát từ chất lượng. Các đầu bếp có kinh nghiệm cao và nguyên liệu chất lượng hàng đầu là điều chúng tôi yêu cầu để đảm bảo bạn nhận được đúng những gì bạn đã trả tiền.
                         </p>
                     </div>
                 </div>
@@ -87,7 +73,7 @@ const FAQ = () => {
                 <div className="accordion-item mb-3">
                     <div className="accordion-header d-flex justify-content-between p-3">
                         <div>
-                            <h3>How and when are the meals delivered to me?</h3>
+                            <h3>Các sản phẩm được giao cho tôi như thế nào và khi nào?</h3>
                         </div>
                         <div>
                             <button className="btn btn-dark w-100" data-bs-toggle="collapse" data-bs-target="#ac5">
@@ -96,11 +82,7 @@ const FAQ = () => {
                         </div>
                     </div>
                     <div className="accordion-body accordion-collapse collapse p-3" id="ac5" data-bs-parent="#ac">
-                        <p>Your meals are delivered bright and early each weekday;
-                             guaranteed to be on your doorstep by 11 a.m.
-                              We simply drop your meals off in your specified address.
-                               Your meals are there ready and waiting for you to take with you, 
-                                 it’s easy and convenient!</p>
+                        <p>Các đơn hàng của bạn được giao đến tận nơi vào mỗi ngày trong tuần; đảm bảo sẽ có mặt trước cửa nhà bạn đúng giờ. Chúng tôi chỉ đơn giản là để bữa ăn của bạn tại địa chỉ của bạn. Bữa ăn của bạn đã sẵn sàng và chờ bạn thưởng thức, thật dễ dàng và tiện lợi.!</p>
                     </div>
                 </div>
 

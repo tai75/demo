@@ -16,14 +16,15 @@ import Articles from './Pages/Articles'
 import ContactUs from './Pages/ContactUs'
 import Checkoutpage from './Components/Checkoutpage'
 import ProtectedRoute from './Components/ProtectedRoute'
-import AuthWrapper from './Components/AuthWrapper'
+import { AuthProvider } from './Components/AuthContext'
 import PaymentSuccess from './Components/PaymentSuccessfull'
 import Error from './Pages/Error'
-
+import Login from './Pages/Login'
+import Register from './Pages/Register'
 function App() {
 
   return (
-    <AuthWrapper>
+    <AuthProvider>
       <Router>
         <ScrollToTop />
         <Navbar />
@@ -34,6 +35,8 @@ function App() {
           <Route path='/shop' element={<Shop />}></Route>
           <Route path='/meals/:id' element={<SelectedMeals />}></Route>
           <Route path='/cart' element={<Cart />}></Route>
+          <Route path='/login' element={<Login/>}></Route>
+          <Route path='/register' element={<Register/>}></Route>
           <Route exact element={<ProtectedRoute />}>
             <Route exact path='/checkout' element={<Checkoutpage />}></Route>
           </Route>
@@ -45,7 +48,7 @@ function App() {
         </Routes>
         <Footer />
       </Router>
-    </AuthWrapper>
+      </AuthProvider>
   )
 }
 

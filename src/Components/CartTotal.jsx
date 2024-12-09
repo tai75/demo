@@ -10,18 +10,18 @@ const CartTotal = () => {
 
   return (
     <article className='cart-bill'>
-      <p>Billing</p>
-      <h4>Total Items: {total_items}</h4>
-      <h3>Order Total: &#8377; {total_amount}</h3>
+      <p>Hóa Đơn</p>
+      <h4>Tổng Số Sản Phẩm: {total_items}</h4>
+      <h3>Tổng Hóa Đơn: &#8377; {total_amount}</h3>
 
       {user ?
         <div className='btn-logout'>
           <Link to='/checkout'>
-            <button className='btn-checkout btn-pymnt'>Checkout</button>
+            <button className='btn-checkout btn-pymnt'>Kiểm Tra</button>
           </Link>
           <PersonRemoveIcon className='btn-logout-icon' onClick={() => logout({ returnTo: window.location.origin })} />
         </div> :
-        <button className='btn-checkout btn-login' onClick={loginWithRedirect}> < PersonAddIcon />Login to Checkout</button>
+        <button className='btn-checkout btn-login' onClick={loginWithRedirect}> < PersonAddIcon /></button>
 
       }
 

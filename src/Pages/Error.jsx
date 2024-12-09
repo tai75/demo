@@ -5,7 +5,7 @@ const Error = () => {
   return (
     <section className='error-page'>
       <img src={err} alt="err" />
-      <h1>Page you requested do not found</h1>
+      <h1>Trang bạn yêu cầu không tìm thấy</h1>
     </section>
   )
 }

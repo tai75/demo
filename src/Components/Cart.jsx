@@ -14,13 +14,13 @@ const Cart = () => {
   if (cart.length < 1) {
     return <section className='empty-cart-items'>
       <div className='empty-title'>
-        your
+        Giỏ Hàng Của Bạn
         <span> <BsCart4 className='empty-cart' /> </span>
-        cart is empty!
+        Đang Trống
       </div>
       <Link to='/shop'>
         <button className='empty-shop-now'>
-          Shop Now!
+          Mua Ngay!
         </button>
       </Link>
     </section>
@@ -31,11 +31,11 @@ const Cart = () => {
       <div className='cart-top-sec'>
         <Link to='/shop'>
           <Button variant="outlined" color="success">
-            Shop More ?
+            Mua Thêm?
           </Button>
         </Link>
         <span>
-          <h2>Your Total: &#8377; {total_amount}</h2>
+          <h2>Tổng: &#8377; {total_amount}</h2>
         </span>
 
       </div>
@@ -54,12 +54,12 @@ const Cart = () => {
 
           <Link to='/shop'>
             <Button className='btn-cart' variant="outlined" color="success">
-              Shop More ?
+              Mua Thêm?
             </Button>
           </Link>
 
           <Button className='btn-clear-cart' onClick={clearCart} variant="outlined" color="error" startIcon={<DeleteIcon />}>
-            Clear Cart
+            Làm sạch giỏ
           </Button>
 
           <SocialMedia />

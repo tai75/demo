@@ -10,7 +10,7 @@ const Filters = () => {
             <span>
                 <img src={meal1} alt="meal1" />
                 <div className='meal-title'>
-                    Meals
+                    Thực Phẩm
                 </div>
             </span>
 
@@ -24,28 +24,28 @@ const Filters = () => {
 
             <div className='filtering'>
                 <div className='meal-select'>
-                    <label htmlFor="select">Meal type</label>
+                    <label htmlFor="select">Loại Thực Phẩm</label>
                     <form>
                         <select className='select-bar' name="category" value={select} onChange={updateSelect} >
-                            <option value="all">All Meals</option>
-                            <option value="breakfast">BREAKFAST</option>
-                            <option value="soup">SOUP</option>
+                            <option value="all">Tất Cả</option>
+                            <option value="breakfast">Bữa Sáng</option>
+                            <option value="soup">Súp</option>
                             <option value="salad">SALAD</option>
-                            <option value="drink">DRINK</option>
-                            <option value="main">MAIN</option>
+                            <option value="drink">Thức Uống</option>
+                            <option value="main">Món Chính</option>
                         </select>
                     </form>
                 </div>
 
                 <div className='sort-select'>
-                    <label htmlFor="select">Sort</label>
+                    <label htmlFor="select">Sắp Xếp</label>
                     <form>
                         <select className='sort-bar' name="sort" id="sort" value={sort} onChange={updateSort}>
-                            <option>Sort By</option>
-                            <option value="title">A to Z</option>
-                            <option value="-title">Z to A</option>
-                            <option value="-price">Price: Highest to Lowest</option>
-                            <option value="price">Price: Lowest to Highest</option>
+                            <option>Sắp Xếp Theo</option>
+                            <option value="title">A đến Z</option>
+                            <option value="-title">Z đến A</option>
+                            <option value="-price">Giá: Cao đến Thấp </option>
+                            <option value="price">Giá: Thấp đến Cao</option>
                         </select>
                     </form>
                 </div>

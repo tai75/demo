@@ -6,7 +6,7 @@ const Loading = () => {
   return (
     <section className='loading-page'>
         <img className='loading-img' src={loading} alt="loading" />   
-        <h1>Loading</h1> 
+        <h1>Đang Tải</h1> 
             <PulseLoader
                 className='load'
                 color="#154726"

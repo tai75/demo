@@ -14,8 +14,8 @@ const Footer = () => {
     <section>
       <div className='footer'>
         <div className='col-6'>
-          <h1>Stay Healthy.</h1>
-          <span className='subs'>Subscribe to HealthyMe updates.</span>
+          <h1>Giữ Sức Khỏe.</h1>
+          <span className='subs'>Đăng ký để biết thêm chi tiết.</span>
           <form action="https://formspree.io/f/mknaadbv" method="post">
             <input name='Email' id='email' autoComplete='true' type="email" placeholder='Enter your email here' />
             <button type='submit'><ShortcutIcon/></button>
@@ -23,12 +23,12 @@ const Footer = () => {
 
           <div className='footer-logo' onClick={clickToTop}>
             <img src={logo} alt="logo" />
-            <span>HealthyMe</span>
+            <span>Ăn Lành Mạnh!</span>
             <br />
             <div className='reserve'>
-              &copy;2023, HealthyMe
+              &copy;2024, Ăn Lành Mạnh!
               <br />
-              All rights reserved.
+              Toàn Bộ Bản Quyền Thuộc về Ăn Lành Mạnh.
             </div>
           </div>
         </div>
@@ -36,16 +36,16 @@ const Footer = () => {
         <div className='col-6'>
           <ul>
             <Link to='/about'>
-              <li>How healthyMe Works?</li>
+              <li> Ăn Lành Mạnh! Hoạt Động Như Thế Nào?</li>
             </Link>
             <Link to='/articles'>
-              <li>Articles</li>
+              <li>Bài viết</li>
             </Link>
             <Link to='/shop'>
-              <li>ShopMeals</li>
+              <li>Menu</li>
             </Link>
             <Link to='/contact'>
-              <li>Contact Us</li>
+              <li>Tương Tác Với Chúng Tôi</li>
             </Link>
           </ul>
           <div className='footer-info'>
@@ -60,7 +60,7 @@ const Footer = () => {
           </div>
         </div>
         <span className='notice'>
-          This website is for educational purpose only
+        Trang web này chỉ dành cho mục đích học tập.
         </span>
       </div>
     </section>
